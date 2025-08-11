@@ -900,10 +900,32 @@ a {
     background-color: #32383a;
     border: 1px solid hsl(147.09deg 92.79% 43.53%);
     border-radius: 5px;
+    width: 400px;
     padding: 5px 5px 5px 10px;
     color: #ffffff;
     height: 50px;
     font-size: 1rem;
+}
+
+.footer-subscribe-bar textarea {
+    background-color: rgb(50, 56, 58);
+    color: rgb(255, 255, 255);
+    height: 100px;
+    width: 400px;
+    font-size: 1rem;
+    margin: 5px 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(8, 214, 101);
+    border-image: initial;
+    border-radius: 5px;
+    padding: 5px 5px 5px 10px;
+}
+
+form.footer-subscribe-bar {
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-input-type {
