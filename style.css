@@ -1243,4 +1243,10 @@ form.footer-subscribe-bar {
     .dropdown {
         display: block;
     }
+    .progress-bar-2 {
+            margin: 0px 25px;
+    }
+    .pogress-main {
+        margin: 0px 20px;
+    }
 }
